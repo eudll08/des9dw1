@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    background-color: #B91818;
+    position: relative;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 5px black solid;
+}
+
+h1{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+}
+
+.nav{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+
+.nav li{
+    display: inline;
+    text-decoration: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor_limite{
+    background-color: #B91818;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 20px;
+}
+
+.contenedor_limite2{
+    background-color: #B91818;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 20px;
+}
+
+section{
+    margin: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+.card img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card h2{
+    font-size: 30px;
+    color: black;
+}
+
+.card p{
+    font-size: 20px;
+    color: black;
+}
+
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.padre_h2{
+    text-align: center;
+}
+
+.hover :hover{
+    background-color: black;
+}
+
+footer{
+    background-color:#B91818;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 100px;
+    align-content: center;
+    text-align: right;
+    border-top: 5px black solid;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 700px){
+    .nav{
+        position: absolute;
+        left: 5px;
+        bottom: 10px;
+    }
+    .nav li{
+        display: block;
+    }
+    header{
+        padding: 90px 50px;
+    }
+
+}
